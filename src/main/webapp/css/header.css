@@ -1,0 +1,107 @@
+.header {
+    /* Font/Text */
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+
+    /* Background */
+    background-color: rgb(0, 110, 255);
+    
+    /* Border */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(0, 42, 96);
+
+    /* Padding */
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header * {
+    /* Display */
+    display: inline-block;
+
+    /* Vertical align */
+    vertical-align: middle;
+
+    /* Margin */
+    margin-left: 10px;
+}
+
+.header input[type="text"] {
+    /* Font/text */
+    font-size: 25px;
+
+    /* Padding */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .pcshop_icon {
+    width: 125px;
+    height: 75px;
+}
+
+.header .kwinput {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.header .searchBtn {
+    /* Size */
+    width: 30px;
+    height: 30px;
+
+    /* Cursor */
+    cursor: pointer;
+
+    /* Background */
+    background-color:transparent;
+    background-size: cover;
+    background-image: url("/pcshop/assets/search.png");
+
+    /* Border */
+    border:none;
+}
+
+.header a::before {
+    /* Content */
+    content: "";
+
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: 30px;
+    height: 30px;
+
+    /* Background */
+    background-size: cover;
+
+    /* Vertical align */
+    vertical-align: middle;
+}
+
+.header .loginUserUrl::before {
+    /* Background */
+    background-image: url("/pcshop/assets/login.png");
+}
+
+.header .notificationUrl::before {
+    /* Background */
+    background-image: url("/pcshop/assets/notification.png");
+}
+
+.header .cartUrl::before {
+    /* Background */
+    background-image: url("/pcshop/assets/cart.png");
+}
+
+.header .administratorUrl::before {
+    /* Background */
+    background-image: url("/pcshop/assets/management.png");
+}

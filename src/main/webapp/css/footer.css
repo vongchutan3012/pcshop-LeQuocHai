@@ -1,0 +1,17 @@
+.footer {
+    padding: 10px;
+    background-color: gray;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+}
+
+.footer * {
+    font-family: Arial;
+}
+
+.footer p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}

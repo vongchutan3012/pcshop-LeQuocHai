@@ -1,0 +1,25 @@
+table {
+    /* Font/text */
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.itemAvatar {
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: 75px;
+    height: 75px;
+
+    /* Margin */
+    margin: 10px;
+
+    /* Border */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+td * {
+    vertical-align: middle;
+}

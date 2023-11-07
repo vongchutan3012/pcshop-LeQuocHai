@@ -1,0 +1,81 @@
+.leftArea .imageDisplayBox {
+    /* Size */
+    width: 350px;
+    height: 350px;
+}
+
+.leftArea .imageDisplayBox img {
+    /* Size */
+    width: 100%;
+    height: 100%;
+}
+
+.leftArea .imageSelectBar {
+    /* Size */
+    width: 500px;
+    height: fit-content;
+
+    /* Text */
+    text-align: left;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.leftArea .imageSelectBar div {
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: 100px;
+    height: 100px;
+
+    /* Cursor */
+    cursor: pointer;
+}
+
+.leftArea .imageSelectBar div img {
+    /* Size */
+    width: 100%;
+    height: 100%;
+}
+
+.leftArea > div {
+    /* Margin */
+    margin: 25px;
+}
+
+.rightArea {
+    /* Font/text */
+    font-family: Arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.rightArea > div {
+    /* Margin */
+    margin: 25px;
+}
+
+.rightArea .itemName {
+    /* Font/text */
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rightArea .title {
+    /* Display */
+    display: inline;
+
+    /* Font/text */
+    font-weight: bold;
+}
+
+.rightArea .content {
+    /* Display */
+    display: inline;
+}
+
+.rightArea .addToCart input[type="number"] {
+    /* Size */
+    width: 75px;
+}

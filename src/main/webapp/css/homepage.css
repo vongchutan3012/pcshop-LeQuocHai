@@ -1,0 +1,74 @@
+.itemBox {
+    /* Display */
+    display: inline-block;
+
+    /* Margin */
+    margin: 10px;
+
+    /* Size */
+    width: 350px;
+    height: fit-content;
+
+    /* Font/text */
+    font-family: Arial;
+    font-size: 25px;
+
+    /* Border */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.itemBox > div {
+    /* Margin */
+    margin: 5px;
+}
+
+.itemBox .itemAvatar {
+    /* Display */
+    display: block;
+
+    /* Size */
+    width: 100%;
+    height: 200px;
+
+    /* Font/text */
+    text-align: center;
+}
+
+.itemBox .itemAvatar img {
+    /* Display */
+    display: inline;
+
+    /* Size */
+    width: 200px;
+    height: 200px;
+}
+
+.itemBox .itemInfo {
+    /* Display */
+    display: block;
+
+    /* Text align */
+    text-align: justify;
+}
+
+.itemBox .itemInfo .itemName {
+    /* Font/text */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.itemBox .viewItem {
+    /* Display */
+    display: block;
+
+    /* Font/text */
+    text-align: center;
+}
+.itemBox .addItemToCart {
+    /* Display */
+    display: block;
+
+    /* Font/Text */
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <!-- Display name -->
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!-- Listeners -->
+  <listener>
+    <listener-class>gdu.pm05.group1.pcshop.listener.ContextListener</listener-class>
+  </listener>
+
+  <!-- Welcome files -->
+  <welcome-file-list>
+    <welcome-file>home</welcome-file>
+  </welcome-file-list>
+
+  <!-- Context parameters -->
+  <context-param>
+    <param-name>contactEmail</param-name>
+    <param-value>lequochai26@gmail.com</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>contactPhoneNumbers</param-name>
+    <param-value>0902031167</param-value>
+  </context-param>
+
+  <context-param>
+    <param-name>contactAddress</param-name>
+    <param-value>
+      592/5A Lạc Long Quân, Phường 5, Quận 11, Tp. Hồ Chí Minh
+    </param-value>
+  </context-param>
+</web-app>

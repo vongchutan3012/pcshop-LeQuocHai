@@ -1,0 +1,19 @@
+body {
+    /* Margin */
+    margin: 0px;
+
+    /* Padding */
+    padding: 0px;
+}
+
+.verticalAlignRuler {
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: 0px;
+    height: 100%;
+
+    /* Margin */
+    margin: 0px;
+}

@@ -1,0 +1,109 @@
+.itemBox {
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: 200px;
+    height: 350px;
+
+    /* Border */
+    border: 1px solid black;
+    border-radius: 10px;
+
+    /* Text align */
+    text-align: center;
+}
+
+.itemBox div {
+    /* White space */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* Margin */
+    margin: 5px;
+}
+
+.itemBox .itemImageBox {
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: 175px;
+    height: 175px;
+
+    /* Border */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.itemBox .itemImageBox .itemImage {
+    /* Size */
+    width: inherit;
+    height: inherit;
+
+    /* Border */
+    border-radius: inherit;
+}
+
+.itemBox .itemNameBox {
+    /* Display */
+    display: block;
+
+    /* Size */
+    width: inherit;
+    height: 35px;
+
+    /* Font/text */
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.itemBox .itemPriceBox {
+    /* Display */
+    display: block;
+
+    /* Size */
+    width: inherit;
+    height: 20px;
+
+    /* Font/Text */
+    font-family: Arial;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.itemBox .urlBox {
+    /* Display */
+    display: block;
+
+    /* Size */
+    width: inherit;
+    height: 35px;
+
+    /* Font/Text */
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+}
+
+.url {
+    /* Display */
+    display: inline-block;
+
+    /* Size */
+    width: fit-content;
+    height: fit-content;
+
+    /* Padding */
+    padding: 5px;
+
+    /* Background */
+    background-color: white;
+
+    /* Border */
+    border: 1px solid black;
+    border-radius: 25px;
+}
